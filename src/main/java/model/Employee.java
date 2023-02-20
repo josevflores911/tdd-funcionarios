@@ -1,10 +1,8 @@
 package model;
 
-import model.Position;
-
 import java.math.BigDecimal;
 
-public class Funcionario {
+public class Employee {
 
     private String id;
     private String name;
@@ -13,7 +11,7 @@ public class Funcionario {
     private BigDecimal salary;
     private Adress adress;
 
-     public Funcionario(String id, String name, Long age, Position position, BigDecimal salary) {
+     public Employee(String id, String name, Long age, Position position, BigDecimal salary) {
         this.id = id;
         this.name = name;
         this.age = age;

@@ -1,13 +1,13 @@
 package services;
 
-import model.Funcionario;
+import model.Employee;
 
 import java.math.BigDecimal;
 
 public class CalculateSalary {
 
-    public BigDecimal salaryCalculator(Funcionario funcionario){
+    public BigDecimal salaryCalculator(Employee employee){
         //if
-        return funcionario.getSalary().multiply(BigDecimal.valueOf(0.7));
+        return employee.getSalary().multiply(BigDecimal.valueOf(0.7));
     }
 }
